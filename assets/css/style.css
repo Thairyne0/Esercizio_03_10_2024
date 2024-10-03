@@ -1,11 +1,14 @@
 /* IMPOSTAZIONI GENERALI */
 html {
+    
     font-family: 'Poppins';
 }
 
 body {
-    width: 500px;
+    width: 480px;
+    margin: auto;
     background-image: url(../img/sfondo.png);
+    background-size: 500;
     
 }
 
