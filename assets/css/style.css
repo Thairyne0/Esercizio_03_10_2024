@@ -11,7 +11,6 @@ header {
     text-align: center;
     margin-top: 20px;
     margin: 20px;
-    text-align: center;
     background: linear-gradient(90deg, rgba(255,31,79,1) 0%, rgba(58,232,255,1) 100%);
     -webkit-box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.67); 
     box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.67);
@@ -87,7 +86,7 @@ main ul {
 
 main ul strong {
     background-color: rgb(221, 221, 221);
-    border-radius: 20%;
+    border-radius: 5px;
     border: 1px solid black;
 }
 
@@ -102,13 +101,134 @@ main ol {
     margin-right: 40px;
 }
 
+table caption{
+    font-weight: 800;
+}
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+/* #div-table {
+    text-align: center;
+    margin: auto;
+} */
 
-/* TABELLE */
+table{
+    width: 400px;
+    margin: auto;
+}
 
-/* FORM */
+table thead {
+    background-color: rgb(83, 83, 255);
+    color: white;
+    border: 1px solid white;
+}
 
-/* ELEMENTI NELL' ASIDE */
+table thead th {
+    padding: 10px;
+}
 
-/* FOOTER */
+table tbody th{
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+table tbody tr:last-child{
+    border-bottom: 1px solid rgb(83, 83, 255);
+}
+
+#link-tool {
+    color: rgb(0, 155, 155);
+}
+
+iframe {
+    height: 250px;
+    width: 420px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#div-form {
+    padding: 20px;
+    height: 175px;
+    background-color: rgb(219, 219, 219);
+}
+
+#div-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+#div-form p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+#div-form input {
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px dashed grey;
+}
+
+#div-form button {
+    background-color: rgb(83, 83, 255);
+    font-size: 1.5em;
+    color: white;
+    height: 35px;
+    width: 100px;
+}
+
+#titolo-piepagina {
+    text-align: center;
+}
+
+#first-aside {
+    background-color: rgb(209, 209, 209);
+    border: 1px solid rgb(180, 180, 180);
+    margin-top: 10px;
+}
+
+#second-aside {
+    background-color: rgb(209, 209, 209);
+    border: 1px solid rgb(180, 180, 180);
+    margin-top: 10px;
+}
+
+#third-aside {
+    background-color: rgb(209, 209, 209);
+    border: 1px solid rgb(180, 180, 180);
+    margin-top: 10px;
+}
+
+footer {
+    -webkit-box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.67);   
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%, rgba(6,66,159,1) 100%);
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+footer p {
+    font-size: 1.3em;
+    color: white;
+}
+
+footer a {
+    font-size: 1.3;
+    color: purple;
+}
+
+
+
