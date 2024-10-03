@@ -1,4 +1,8 @@
 /* IMPOSTAZIONI GENERALI */
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
     width: 500px;
     background-image: url(../img/sfondo.png);
