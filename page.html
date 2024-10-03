@@ -7,36 +7,68 @@
       name="description"
       content="Primi passi operativi per creare un modello di pagina HTML per un post. Scropri come iniziare in modo facile."
     />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
   </head>
   <body>
     <header id="home">
-      <img src="./logo.svg" alt="Logo di Epicode" />
-      <h1>Epicode - Il blog dei developers</h1>
+      <img src="./assets/img/logo.svg" alt="Logo di Epicode" />
+      <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
       <menu>
         <div>
-          <a href="#home"><h3>Home</h3></a>
-          <a href="#articoli"><h3>Articoli</h3></a>
-          <a href="#Lavora"><h3>Lavora con noi</h3></a>
+          <a href="#home"
+            ><h3>
+              <i class="fas fa-angle-double-right"></i>HOME<i
+                class="fas fa-angle-double-left"
+              ></i></h3
+          ></a>
+          <a href="#articoli"
+            ><h3>
+              <i class="fas fa-angle-double-right"></i>ARTICOLI<i
+                class="fas fa-angle-double-left"
+              ></i></h3
+          ></a>
+          <a href="#Lavora"
+            ><h3>
+              <i class="fas fa-angle-double-right"></i>LAVORA CON NOI<i
+                class="fas fa-angle-double-left"
+              ></i></h3
+          ></a>
         </div>
       </menu>
     </header>
     <main id="articoli">
       <div>
         <h3>Come Creare un template per i post</h3>
-        <h6>di Mario Rossi - pubblicato il 25-10-2020</h6>
+        <h6>
+          <i class="fas fa-pen-square"></i> di Mario Rossi -
+          <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+        </h6>
         <p>
           La prima cosa da fare é suddividere in blocchi logici la pagina,
-          identificando le parti comuni da applicare a tutte le pagine
+          identificando le <strong>parti comuni</strong> da applicare a tutte le
+          pagine
         </p>
         <ul>
           <p>Le varie aree saranno quindi suddivise in:</p>
-          <li>Contenuti di intestazione del tag &lt header &gt</li>
           <li>
-            Contenuti centrali variabili del tag &lt main &gt (corpo principale)
+            Contenuti di intestazione del tag <strong>&lt header &gt</strong>
           </li>
           <li>
-            Contenuti di fine pagina comuni, da inserire nel tag &lt footer &gt
+            Contenuti centrali variabili del tag <strong>&lt main &gt</strong>
+            (corpo principale)
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <strong>&lt footer &gt</strong>
           </li>
         </ul>
         <p>Formattazione del codice</p>
@@ -44,7 +76,8 @@
         <ol>
           <p>
             Il testo dell'articolo dovrá essere formattato per identificare
-            tutte le parti da selezionare con i CSS. Perció i passi saranno:
+            tutte le parti da <strong>selezionare con i CSS</strong>. Perció i
+            passi saranno:
           </p>
           <li>
             Progettare il markup assegnando ad ogni specifico testo il tag
